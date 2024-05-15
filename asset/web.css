@@ -150,6 +150,13 @@ a.order {
   .image-col, .word-col {
     height: 380px;
   }
+
+  .word-col > p {
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 30px;
+  }
+
 }
 
 
