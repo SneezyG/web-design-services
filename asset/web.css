@@ -23,8 +23,9 @@ header > a {
 
 header > h4 {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
   color: black;
+  text-transform: uppercase;
 }
 
 .company {
@@ -38,7 +39,7 @@ header > h4 {
 }
 
 main {
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -183,6 +184,13 @@ a.order {
   
   header {
     width: 100%;
+  }
+  
+  header > h4 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
   }
   
   body {
