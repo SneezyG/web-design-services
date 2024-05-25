@@ -26,6 +26,12 @@ header > h4 {
   margin-top: 60px;
   color: black;
   text-transform: uppercase;
+  line-height: 40px;
+}
+
+.start-price {
+  border-bottom: 4.5px solid #FBC02D;
+  padding: 0 25px 3px 25px;
 }
 
 .company {
@@ -39,7 +45,7 @@ header > h4 {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 120px;
   margin-bottom: 100px;
 }
 
@@ -186,13 +192,6 @@ a.order {
     width: 100%;
   }
   
-  header > h4 {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 30px;
-  }
-  
   body {
     background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   }
@@ -211,6 +210,12 @@ a.order {
   
   header > h4 {
     font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .start-price {
+    border-bottom: 4px solid #FBC02D;
+    padding: 0 20px 3px 20px;
   }
 
 }
