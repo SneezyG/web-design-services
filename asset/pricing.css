@@ -36,6 +36,10 @@ header > h4 {
   border-radius: 50%;
 }
 
+.company > p {
+  font-size: 12px;
+}
+
 main {
   margin-top: 100px;
   margin-bottom: 100px;

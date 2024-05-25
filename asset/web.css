@@ -23,7 +23,7 @@ header > a {
 
 header > h4 {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   color: black;
   text-transform: uppercase;
   line-height: 40px;
@@ -36,6 +36,10 @@ header > h4 {
 
 .company {
   margin-top: 10px;
+}
+
+.company > p {
+  font-size: 12px;
 }
 
 .company > img {
@@ -52,7 +56,16 @@ main {
 section {
   width: 60%;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+}
+
+p.process {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+p.process > a {
+  color: black;
 }
 
 footer {
