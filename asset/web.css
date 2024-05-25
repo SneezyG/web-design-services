@@ -66,6 +66,9 @@ p.process {
 
 p.process > a {
   color: black;
+  position: relative;
+  left: 5px;
+  top: 3px;
 }
 
 footer {
