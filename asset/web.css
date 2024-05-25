@@ -30,7 +30,7 @@ header > h4 {
 }
 
 .start-price {
-  border-bottom: 4.5px solid #FBC02D;
+  border-bottom: 4.5px solid #D1D1D1;
   padding: 0 25px 3px 25px;
 }
 
@@ -214,7 +214,7 @@ a.order {
   }
   
   .start-price {
-    border-bottom: 4px solid #FBC02D;
+    border-bottom: 4px solid #D1D1D1;
     padding: 0 20px 3px 20px;
   }
 
