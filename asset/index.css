@@ -41,6 +41,7 @@ header > .menu {
   border-radius: 5px;
   display: none;
   z-index: 5;
+  border: 1px solid #D1D1D1;
 }
 
 .links > a {
@@ -66,16 +67,23 @@ a.last-link {
 
 header > h4 {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
   color: black;
   text-transform: uppercase;
-  line-height: 40px;
   font-family: "Merienda", cursive;
 }
 
+p.tailored {
+  margin-bottom: 30px;
+}
+
 .start-price {
-  border-bottom: 4.5px solid #D1D1D1;
-  padding: 0 25px 3px 25px;
+  border: 1px solid #D1D1D1;
+  font-size: 32px;
+  padding: 10px 25px;
+  border-radius: 13px;
+  color: #EEEEEE;
+  background-color: rgba(0.98, 0.95, 0.96, 0.1);
 }
 
 .company {
@@ -93,7 +101,7 @@ header > h4 {
 }
 
 main {
-  margin-top: 120px;
+  margin-top: 110px;
   margin-bottom: 140px;
 }
 
@@ -270,13 +278,13 @@ a.order {
     height: 290px;
   }
   
-  header > h4 {
+  p.tailored {
     font-size: 18px;
-    line-height: 30px;
   }
   
   .start-price {
-    padding: 0 20px 3px 20px;
+    font-size: 25px;
+    padding: 10px 20px;
   }
 
 }

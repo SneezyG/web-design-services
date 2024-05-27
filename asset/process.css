@@ -40,6 +40,7 @@ header > .menu {
   border-radius: 5px;
   display: none;
   z-index: 5;
+  border: 1px solid #D1D1D1;
 }
 
 .links > a {
