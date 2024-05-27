@@ -70,6 +70,7 @@ header > h4 {
   color: black;
   text-transform: uppercase;
   line-height: 40px;
+  font-family: "Merienda", cursive;
 }
 
 .start-price {
@@ -275,7 +276,6 @@ a.order {
   }
   
   .start-price {
-    border-bottom: 4px solid #D1D1D1;
     padding: 0 20px 3px 20px;
   }
 
