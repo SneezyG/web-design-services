@@ -40,6 +40,7 @@ header > .menu {
   border-radius: 5px;
   display: none;
   z-index: 5;
+  border: 1px solid #D1D1D1;
 }
 
 .links > a {
@@ -109,8 +110,8 @@ footer > a {
 }
 
 a.order {
-  background-color: white;
-  color: black;
+  background-color: #C60026;
+  color: white;
   padding: 13px 15px 15px 15px;
   border-radius: 28px;
   font-size: 16px;
@@ -120,7 +121,7 @@ a.order {
 }
 
 .snip1517 {
-  color: #ffffff;
+  color: black;
   font-size: 16px;
   margin: 30px 10px;
 }
@@ -129,7 +130,7 @@ a.order {
   padding-top: 10px;
   margin-bottom: 50px;
   position: relative;
-  background-color: #222f3d;
+  background-color: #FAF2F4;
   border-radius: 15px;
 }
 
@@ -140,19 +141,15 @@ a.order {
   transition: all 0.25s ease-out;
 }
 
-.snip1517 header {
-  color: #ffffff;
-}
-
 .snip1517 .plan-title {
-  line-height: 60px;
+  line-height: 50px;
   position: relative;
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0 20px;
   font-size: 1.6em;
   letter-spacing: 2px;
   font-weight: 700;
-  color: #7986CB;
+  color: #1565C0;
   text-align: center;
 }
 
@@ -161,9 +158,9 @@ a.order {
   content: '';
   top: 100%;
   left: 20px;
-  width: 50px;
+  width: 60px;
   height: 3px;
-  background-color: #fff;
+  background-color: #BDBDBD;
 }
 
 .snip1517 .plan-cost {
@@ -172,25 +169,26 @@ a.order {
 }
 
 .snip1517 .plan-price {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5em;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   display: inline-block;
+  color: #424242;
 }
 
 .snip1517 .nego {
-  background-color: #C60026;
+  background-color: #FF8F00;
   color: white;
   border-radius: 7px;
   padding: 0 7px 2px 7px;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .snip1517 .plan-features {
   padding: 0 0 20px;
   margin: 20px 0 0 0;
   list-style: outside none none;
-  font-size: 0.9em;
+  font-size: 15px;
 }
 
 .snip1517 .plan-features li {
@@ -200,7 +198,7 @@ a.order {
 
 .snip1517 .plan-features li:before {
   content: "•";
-  color: #7986CB;
+  color: #1565C0;
   font-size: 20px;
   margin-right: 10px;
   position: relative;
@@ -209,7 +207,7 @@ a.order {
 
 li.plus:after {
   content: "+";
-  color: #4CAF50;
+  color: #FF8F00;
   font-size: 22px;
   margin-left: 5px;
   position: absolute;
