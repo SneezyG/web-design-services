@@ -130,7 +130,7 @@ a.order {
   padding-top: 10px;
   margin-bottom: 50px;
   position: relative;
-  background-color: #FAF2F4;
+  background-image: linear-gradient(to right, #faf2f4, #faf2f4, #faf2f4, #faf2f4, #faf2f4, #f8f0f2, #f6edf0, #f4ebee, #f0e6e9, #ebe1e5, #e7dde0, #e3d8dc);
   border-radius: 15px;
 }
 
