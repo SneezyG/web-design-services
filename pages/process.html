@@ -68,7 +68,20 @@
     <h4> Our Design Process Elaborated </h4>
    </header>
    
-   <main> </main>
+   <main> 
+    <div class="container process-bar row px-0">
+      <a href="#present-section" class="col text-center process-btn present"> presentation </a>
+      <a href="#graphic-section" class="col text-center process-btn inactive-process-btn graphic"> infographic </a>
+    </div>
+    
+    <div id="present-section" class="present-section"> 
+     <h4 class="text-center">Presentation</h4>
+    </div>
+    <div id="graphic-section" class="graphic-section"> 
+     <h4 class="text-center">infographic</h4>
+    </div>
+    
+   </main>
    
    <footer>
      <a href="https://sneezyg.github.io/fullstack/"> Developer's page </a>
@@ -80,7 +93,25 @@
    
   </body>
   
-  <script src="../asset/menu.js"> </script>
+<script src="../asset/menu.js"> </script>
+
+<script>
+let processBtn = document.querySelectorAll(".process-btn");
+for (let elem of processBtn) {
+  elem.addEventListener("click", e => {
+    let clickedElem = e.target;
+    for (let elem of processBtn) {
+      if (elem == clickedElem) {
+        elem.classList.remove("inactive-process-btn")
+      }
+      else {
+        elem.classList.add("inactive-process-btn")
+      }
+    }
+  })
+}
+
+</script>
   
-<html>
+</html>
   

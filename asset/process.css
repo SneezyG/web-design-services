@@ -16,8 +16,9 @@ header {
 }
 
 header > .menu {
-  float: right;
-  position: relative;
+  position: fixed;
+  right: 10px;
+  z-index: 7;
 }
 
 .menu-btn {
@@ -39,7 +40,6 @@ header > .menu {
   top: 46px;
   border-radius: 5px;
   display: none;
-  z-index: 5;
   border: 1px solid #D1D1D1;
 }
 
@@ -88,6 +88,51 @@ header > h4 {
 main {
   margin-top: 50px;
   margin-bottom: 140px;
+}
+
+.process-bar {
+  background-color: rgba(0.98, 0.95, 0.96, 0.3);
+  margin: auto;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  z-index: 3;
+}
+
+.process-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 0;
+}
+
+.inactive-process-btn {
+  background-color: #FAF2F4;
+  color: black;
+}
+
+.present {
+  border-radius: 10px 0 0 10px;
+}
+
+.graphic {
+  border-radius: 0 10px 10px 0;
+}
+
+.present-section {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 60px;
+  padding-top: 80px;
+  border: 1px solid white;
+}
+
+.graphic-section {
+  width: 50%;
+  margin: auto;
+  height: 500px;
+  padding-top: 80px;
   border: 1px solid white;
 }
 
@@ -103,10 +148,20 @@ footer > a {
 
 
 
-@media only screen and (max-width: 1200px) { }
+@media only screen and (max-width: 1200px) {
+
+}
 
 
-@media only screen and (max-width: 992px) { }
+@media only screen and (max-width: 992px) {
+  .present-section {
+    width: 80%;
+  }
+  
+  .graphic-section {
+    width: 60%;
+  }
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -123,6 +178,14 @@ footer > a {
     display: none;
   }
   
+  .present-section {
+    width: 100%;
+  }
+  
+  .graphic-section {
+    width: 80%;
+  }
+  
 }
 
 
@@ -130,6 +193,10 @@ footer > a {
   
   header > h4 {
     font-size: 18px;
+  }
+  
+  .graphic-section {
+    width: 90%;
   }
   
 }

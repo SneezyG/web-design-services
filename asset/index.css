@@ -17,8 +17,9 @@ header {
 }
 
 header > .menu {
-  float: right;
-  position: relative;
+  position: fixed;
+  right: 10px;
+  z-index: 7;
 }
 
 .menu-btn {
@@ -40,7 +41,6 @@ header > .menu {
   top: 46px;
   border-radius: 5px;
   display: none;
-  z-index: 5;
   border: 1px solid #D1D1D1;
 }
 
