@@ -18,7 +18,7 @@ header {
 
 header > .menu {
   position: fixed;
-  right: 10px;
+  right: 10%;
   z-index: 7;
 }
 
@@ -264,6 +264,10 @@ a.order {
   
   .menu-btn > span {
     display: none;
+  }
+  
+  header > .menu {
+    right: 10px;
   }
   
 }

@@ -121,20 +121,25 @@ main {
 }
 
 .present-section {
-  width: 70%;
-  height: 500px;
+  width: 60%;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   padding-top: 80px;
-  border: 1px solid white;
 }
 
 .graphic-section {
   width: 50%;
   margin: auto;
-  height: 500px;
   padding-top: 80px;
-  border: 1px solid white;
+}
+
+img.infographic {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.carousel-item > img {
+  border-radius: 5px;
 }
 
 footer {
@@ -160,7 +165,7 @@ footer > a {
   }
   
   .present-section {
-    width: 80%;
+    width: 70%;
   }
   
   .graphic-section {
