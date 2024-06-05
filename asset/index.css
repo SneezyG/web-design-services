@@ -26,6 +26,7 @@ header > .menu {
   background-color: #d16ba5;
   padding: 9px 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .menu-btn > span {
