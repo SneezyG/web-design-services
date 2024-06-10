@@ -295,6 +295,30 @@ a.order {
 
 }
 
+@media only screen and (max-width: 430px) {
+  section {
+    width: 75%;
+  }
+  
+  .image-col, .word-col {
+    flex-basis: 100%;
+    border-radius: 20px;
+  }
+  
+  .image-col > img {
+    border-radius: 20px;
+  }
+  
+  .alt-word {
+    border-radius: 20px;
+  }
+  
+  .alt-image > img {
+    border-radius: 20px;
+  }
+    
+}
+
 @media only screen and (max-width: 374px) {
   .links > a {
     width: 300px;
