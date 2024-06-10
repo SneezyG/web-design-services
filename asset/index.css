@@ -295,28 +295,37 @@ a.order {
 
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 480px) {
   section {
-    width: 75%;
+    width: 70%;
   }
   
   .image-col, .word-col {
     flex-basis: 100%;
-    border-radius: 20px;
   }
   
   .image-col > img {
-    border-radius: 20px;
-  }
-  
-  .alt-word {
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
   }
   
   .alt-image > img {
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .word-col {
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .alt-word {
+    border-radius: 20px 20px 0 0;
   }
     
+}
+
+@media only screen and (max-width: 430px) {
+  section {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 374px) {
