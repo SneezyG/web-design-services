@@ -259,6 +259,13 @@ li.plus:after {
 }
 
 
+@media only screen and (max-width: 374px) {
+  .links > a {
+    width: 300px;
+  }
+}
+
+
 
 
 
