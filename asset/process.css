@@ -122,16 +122,17 @@ main {
 }
 
 .present-section {
-  width: 60%;
+  width: 50%;
   margin: auto;
   margin-bottom: 80px;
   padding-top: 80px;
 }
 
 .graphic-section {
-  width: 50%;
+  width: 40%;
   margin: auto;
   padding-top: 80px;
+  display: none;
 }
 
 img.infographic {
@@ -156,7 +157,13 @@ footer > a {
 
 
 @media only screen and (max-width: 1200px) {
-
+  .present-section {
+    width: 55%;
+  }
+  
+  .graphic-section {
+    width: 45%;
+  }
 }
 
 
@@ -166,11 +173,11 @@ footer > a {
   }
   
   .present-section {
-    width: 70%;
+    width: 65%;
   }
   
   .graphic-section {
-    width: 60%;
+    width: 55%;
   }
 }
 
@@ -194,11 +201,11 @@ footer > a {
   }
   
   .present-section {
-    width: 100%;
+    width: 80%;
   }
   
   .graphic-section {
-    width: 80%;
+    width: 70%;
   }
   
   header > .menu {
@@ -214,10 +221,13 @@ footer > a {
     font-size: 18px;
   }
   
+  .present-section {
+    width: 100%;
+  }
+  
   .graphic-section {
     width: 90%;
   }
-  
 }
 
 

@@ -277,11 +277,12 @@ a.order {
 
 @media only screen and (max-width: 576px) {
   section {
-    width: 100%;
+    width: 65%;
   }
   
   .image-col, .word-col {
     height: 290px;
+    flex-basis: 100%;
   }
   
   p.tailored {
@@ -291,17 +292,6 @@ a.order {
   .start-price {
     font-size: 25px;
     padding: 10px 20px;
-  }
-
-}
-
-@media only screen and (max-width: 480px) {
-  section {
-    width: 70%;
-  }
-  
-  .image-col, .word-col {
-    flex-basis: 100%;
   }
   
   .image-col > img {
@@ -319,7 +309,12 @@ a.order {
   .alt-word {
     border-radius: 20px 20px 0 0;
   }
-    
+}
+
+@media only screen and (max-width: 500px) {
+  section {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 430px) {
