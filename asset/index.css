@@ -281,7 +281,7 @@ a.order {
   }
   
   .image-col, .word-col {
-    height: 290px;
+    height: 310px;
     flex-basis: 100%;
   }
   
@@ -315,11 +315,17 @@ a.order {
   section {
     width: 70%;
   }
+  .image-col, .word-col {
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 430px) {
   section {
     width: 75%;
+  }
+  .image-col, .word-col {
+    height: 290px;
   }
 }
 
