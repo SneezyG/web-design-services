@@ -22,6 +22,15 @@ header > .menu {
   z-index: 7;
 }
 
+header > .tag-line {
+  margin-top: 40px;
+}
+
+.tag-line > span {
+  position: relative;
+  left: 3px;
+}
+
 .menu-btn {
   background-color: #d16ba5;
   padding: 9px 10px;
@@ -96,13 +105,13 @@ p.tailored {
 }
 
 .company > img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 
 main {
-  margin-top: 110px;
+  margin-top: 50px;
   margin-bottom: 140px;
 }
 

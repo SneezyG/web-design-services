@@ -21,6 +21,11 @@ header > .menu {
   z-index: 7;
 }
 
+.tag-line > span {
+  position: relative;
+  top: 3px;
+}
+
 .menu-btn {
   background-color: #d16ba5;
   padding: 9px 10px;
@@ -77,8 +82,8 @@ header > h4 {
 }
 
 .company > img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 

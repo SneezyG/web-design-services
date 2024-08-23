@@ -21,6 +21,11 @@ header > .menu {
   z-index: 7;
 }
 
+.tag-line > span {
+  position: relative;
+  top: 3px;
+}
+
 .menu-btn {
   background-color: #d16ba5;
   padding: 9px 10px;
@@ -77,8 +82,8 @@ header > h4 {
 }
 
 .company > img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 
@@ -167,6 +172,21 @@ a.order {
 .snip1517 .plan-cost {
   padding: 0 20px;
   margin: 0;
+}
+
+.plan-offer {
+  display: inline-block;
+  font-size: 12px;
+  background-color: rgba(209, 107, 165, 0.2);
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  position: relative;
+  bottom: 3px;
+}
+
+.offer-ends {
+  font-weight: bold;
 }
 
 .snip1517 .plan-price {
