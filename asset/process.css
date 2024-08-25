@@ -3,12 +3,16 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to right, #d16ba5, #d16ba5, #d16ba5, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1, #5ffbf1, #5ffbf1, #5ffbf1);
+  background-image: linear-gradient(to right, #874a6d, #81517b, #775987, #6c6191, #5f6998, #53719e, #4778a1, #3c7fa2, #2f87a3, #288fa1, #2c969c, #3a9c95);
+  color: #EEEEEE;
   font-size: 15px;
   letter-spacing: 0.05em;
   word-spacing: 0.1em;
   font-family: "Open Sans", sans-serif;
   user-select: none;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -29,7 +33,7 @@ header > .menu {
 }
 
 .menu-btn {
-  background-color: #d16ba5;
+  background-color: #ba6696;
   padding: 9px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -76,7 +80,6 @@ a.last-link {
 header > h4 {
   text-align: center;
   margin-top: 40px;
-  color: black;
 }
 
 .company {
@@ -96,6 +99,7 @@ header > h4 {
 main {
   margin-bottom: 160px;
   padding: 0 10px;
+  flex: 1;
 }
 
 .process-bar {
@@ -220,10 +224,6 @@ footer {
   
   header {
     width: 100%;
-  }
-  
-  body {
-    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   }
   
   .menu-btn > span {
