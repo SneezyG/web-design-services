@@ -224,15 +224,15 @@ a.order {
 }
 
 .first .word-col {
-  background-image: linear-gradient(to right top, #78909c, #7596aa, #749bb8, #76a0c7, #7aa4d5, #76ade1, #71b6ed, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-}
-
-.third .word-col {
-  background-image: linear-gradient(to right top, #00a675, #00ab9a, #00aebb, #00afd4, #36ade3, #4ab3ea, #5ab9f1, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to right top, #78909c, #7696a8, #749cb5, #73a2c2, #73a7cf, #6cabd5, #64b0da, #5bb4df, #49b9da, #3dbdd2, #3dc0c7, #48c2ba);
 }
 
 .second .word-col {
   background-image: linear-gradient(to left top, #757575, #7e7d89, #84869d, #898fb3, #8a99c9, #8e9ad1, #939ada, #9a9ae1, #aa8fd8, #ba83ca, #c777b9, #d16ba5);
+}
+
+.third .word-col {
+  background-image: linear-gradient(to right top, #00a675, #00ab96, #00aeb3, #00afca, #30afd9, #41b1db, #4fb2dd, #5bb4df, #49b9da, #3dbdd2, #3dc0c7, #48c2ba);
 }
 
 .fourth .word-col {
@@ -240,7 +240,7 @@ a.order {
 }
 
 .fifth .word-col {
-  background-image: linear-gradient(to right top, #78909c, #7596aa, #749bb8, #76a0c7, #7aa4d5, #76ade1, #71b6ed, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to right top, #78909c, #7696a8, #749cb5, #73a2c2, #73a7cf, #6cabd5, #64b0da, #5bb4df, #49b9da, #3dbdd2, #3dc0c7, #48c2ba);
 }
 
 .image-col > img {
