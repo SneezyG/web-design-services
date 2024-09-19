@@ -274,11 +274,31 @@ footer {
 
 .for-who {
   font-style: italic;
-  font-size: 15px;
+  font-size: 16px;
   padding: 10px 20px;
   font-family: Roboto;
   font-weight: 500;
   color: #264457;
+}
+
+.action {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.action > a {
+  display: inline-block;
+  background-color: #1565C0;
+  color: white;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  opacity: 0.9;
+  border: 3px solid #1565C0;
 }
 
 
@@ -320,7 +340,7 @@ footer {
   .company > p {
     font-size: 12px;
   }
-    
+  
 }
 
 

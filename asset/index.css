@@ -315,6 +315,7 @@ a.order {
   padding: 40px;
   font-size: 35px;
   font-family: "Comic Neue", cursive;
+  text-transform: capitalize;
 }
 
 .question-section {
