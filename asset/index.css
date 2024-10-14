@@ -4,9 +4,10 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to right, #874a6d, #81517b, #775987, #6c6191, #5f6998, #53719e, #4778a1, #3c7fa2, #2f87a3, #288fa1, #2c969c, #3a9c95);
-  color: #EEEEEE;
+  background-image: linear-gradient(to right, #cb90b2, #bf93bb, #b397c1, #a59ac5, #989dc6, #8ea2c9, #86a6c9, #7faac8, #7ab1c8, #79b8c7, #7cbec3, #83c3be);
+  color: #353535;
   font-size: 17px;
+  font-weight: 500;
   letter-spacing: 0.05em;
   word-spacing: 0.1em;
   font-family: "Open Sans", sans-serif;
@@ -29,8 +30,9 @@ header > .menu {
 }
 
 .tag-line > span {
+  display: inline-block;
   color: #FFF8E1;
-  background-color: rgba(0.98, 0.95, 0.96, 0.6);
+  background-color: rgba(0.98, 0.95, 0.96, 0.7);
   border-radius: 10px;
   padding: 5px 13px;
   border: 3px double #F3DFA4;
@@ -40,11 +42,11 @@ span.just {
   margin-left: 5px;
   position: relative;
   bottom: 1px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .menu-btn {
-  background-color: #ba6696;
+  background-color: #cc4191;
   padding: 9px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -69,12 +71,11 @@ span.just {
 
 .links > a {
   display: block;
-  width: 400px;
-  color: black;
+  width: 500px;
   text-decoration: none;
-  padding: 15px 0 15px 50px;
+  padding: 20px 0 20px 80px;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 20px;
   border-bottom: 1px solid #D1D1D1;
 }
 
@@ -82,6 +83,7 @@ span.just {
   position: relative;
   top: 4px;
   left: 15px;
+  color: #424242;
 }
 
 a.last-link {
@@ -89,19 +91,20 @@ a.last-link {
 }
 
 .pattern-back {
+  width: 70%;
   background-image: url("images/pattern-back.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   padding: 20px;
-  margin: 30px 3px 50px 3px;
+  margin: 30px auto 50px auto;
 }
 
 .pattern-back > h3 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Merienda", cursive;
-  color: #9C526D;
+  color: #ba275d;
   font-weight: bold;
 }
 
@@ -120,7 +123,7 @@ span.service {
 }
 
 img.tag {
-  height: 250px;
+  height: 280px;
   margin-top: 15px;
   animation: moveAndSwing 5s infinite ease-in-out;
 }
@@ -135,12 +138,11 @@ img.tag {
   display: inline-block;
   background-color: #C60026;
   color: white;
-  padding: 10px 12px;
+  padding: 12px 14px;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   opacity: 0.9;
   border: 3px solid #C60026;
 }
@@ -174,7 +176,7 @@ a.action-order {
 }
 
 .company > p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .company > img {
@@ -195,21 +197,29 @@ section {
   margin-bottom: 60px;
 }
 
+div.process-cont {
+  padding: 20px 5px;
+}
+
 p.process {
+  display: inline-block;
   text-align: center;
   margin-bottom: 60px;
+  background-color: rgba(204, 65, 145, 0.8);
+  border-radius: 7px;
+  padding: 5px 10px;
 }
 
 p.process > a {
-  color: #EEEEEE;
+  color: white;
   padding: 2px 7px 0 5px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 footer {
   text-align: center;
   color: white;
-  background-color: rgba(0.98, 0.95, 0.96, 0.4);
+  background-color: rgba(0.98, 0.95, 0.96, 0.5);
   border-radius: 10px 10px 0 0;
 }
 
@@ -314,7 +324,7 @@ a.order {
   text-align: center;
   margin-top: 40px;
   padding: 40px;
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Comic Neue", cursive;
   text-transform: capitalize;
 }
@@ -339,8 +349,9 @@ a.order {
   height: 100%;
 }
 
-.question h6 {
+.question h4 {
   border-bottom: 3px solid #9C526D;
+  color: #482734;
   padding: 10px;
   padding-top: auto;
   text-transform: uppercase;
@@ -360,11 +371,12 @@ a.order {
 .why > b {
   text-transform: capitalize;
   color: #482734;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .why > span {
-  font-size: 15px;
+  font-size: 18px;
+  color: #424242;
 }
 
 
@@ -376,10 +388,25 @@ a.order {
   .image-col, .word-col {
     height: 420px;
   }
+  
+  .word-col > p {
+    margin-top: 35px;
+    padding: 35px; 
+    font-size: 35px;
+  }
+  
+  .pattern-back {
+    width: 80%;
+  }
+  
 }
 
 
 @media only screen and (max-width: 992px) {
+  .pattern-back {
+    width: 99%;
+  }
+  
   section {
     width: 80%;
   }
@@ -389,30 +416,47 @@ a.order {
   }
 
   .word-col > p {
-    margin-top: 30px;
-    padding: 30px;
-    font-size: 30px;
+    margin-top: 25px;
+    padding: 25px;
+    font-size: 33px;
   }
   
   .why > b {
-    text-transform: capitalize;
-    color: #482734;
-    font-size: 15px;
+    font-size: 17px;
   }
   
   .why > span {
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .company > p {
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .company > img {
     width: 60px;
     height: 60px;
   }
-
+  
+  .links > a {
+    font-size: 18px;
+    width: 400px;
+    padding: 18px 0 18px 65px;
+  }
+  
+  img.tag {
+    height: 260px;
+    margin-top: 10px;
+  }
+  
+  .action>a {
+    padding: 10px 12px;
+    font-size: 18px;
+  }
+  
+  span.just {
+    font-size: 18px;
+  }
 
 }
 
@@ -428,12 +472,6 @@ a.order {
   
   .image-col, .word-col {
     height: 340px;
-  }
-  
-  .word-col > p {
-    margin-top: 20px;
-    padding: 20px;
-    font-size: 25px;
   }
   
   .pricing > a {
@@ -454,27 +492,14 @@ a.order {
     right: 10px;
   }
   
-  img.tag {
-    height: 200px;
-    margin-top: 10px;
-  }
-  
-  span.just {
-    font-size: 14px;
-  }
-  
   p.process > a {
-    font-size: 15px;
+    font-size: 18px;
   }
   
-  .links > a {
-    font-size: 15px;
-    width: 350px;
-  }
-  
-  .action > a {
-    padding: 8px 10px;
-    font-size: 14px;
+  .word-col > p {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
   }
   
 }
@@ -512,13 +537,45 @@ a.order {
   }
   
   .company > p {
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .company > img {
     width: 50px;
     height: 50px;
   }
+  
+  .links > a {
+    font-size: 16px;
+    width: 350px;
+    padding: 16px 0 16px 50px;
+  }
+  
+  img.tag {
+    height: 240px;
+  }
+  
+  .action>a {
+    font-size: 16px;
+  }
+  
+  span.just {
+    font-size: 16px;
+  }
+  
+  .word-col > p {
+    margin-top: 15px;
+    padding: 15px;
+  }
+  
+  .why>b {
+    font-size: 16px;
+  }
+  
+  .why>span {
+    font-size: 15px;
+  }
+  
 }
 
 @media only screen and (max-width: 500px) {
@@ -542,5 +599,11 @@ a.order {
 @media only screen and (max-width: 374px) {
   .links > a {
     width: 300px;
+    font-size: 14px;
+    padding: 14px 0 14px 40px;
+  }
+  
+  .word-col > p {
+    font-size: 25px;
   }
 }
