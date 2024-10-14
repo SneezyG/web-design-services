@@ -327,7 +327,7 @@ footer {
     height: 60px;
   }
   
-  .links>a {
+  .links > a {
     font-size: 18px;
     width: 400px;
     padding: 18px 0 18px 65px;
@@ -341,7 +341,7 @@ footer {
     font-size: 15px;
   }
   
-  .tag-line>span {
+  .tag-line > span {
     font-size: 20px;
   }
   
@@ -363,17 +363,18 @@ footer {
     right: 10px;
   }
   
-  .company > p {
-    font-size: 12px;
-  }
-  
 }
 
 
 @media only screen and (max-width: 576px) {
   
-  header > h4 {
-    font-size: 18px;
+  header > h3 {
+    word-spacing: 0.15em;
+    letter-spacing: 0.05em;
+  }
+  
+  .tag-line {
+    letter-spacing: 0.03em;
   }
   
   .company > p {
@@ -385,7 +386,7 @@ footer {
     height: 50px;
   }
   
-  .links>a {
+  .links > a {
     font-size: 16px;
     width: 350px;
     padding: 16px 0 16px 50px;
