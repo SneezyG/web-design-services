@@ -29,6 +29,10 @@ header > .menu {
   z-index: 7;
 }
 
+.hide-menu {
+  display: none;
+}
+
 .tag-line > span {
   display: inline-block;
   color: #FFF8E1;

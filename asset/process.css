@@ -28,6 +28,10 @@ header > .menu {
   z-index: 7;
 }
 
+.hide-menu {
+  display: none;
+}
+
 .tag-line {
   margin-bottom: 40px;
 }
@@ -57,7 +61,7 @@ header > .menu {
   background-color: #FAF2F4;
   position: absolute;
   right: 0;
-  top: 46px;
+  top: 53px;
   border-radius: 5px;
   display: none;
   border: 1px solid #D1D1D1;
