@@ -420,9 +420,13 @@ footer {
 @media only screen and (max-width: 374px) {
   .links > a {
     width: 300px;
-    font-size: 14px;
-    padding: 14px 0 14px 40px;
+    padding: 14px 0 14px 20px;
   }
+  
+  .link-text {
+    left: 10px;
+  }
+  
 }
 
 
