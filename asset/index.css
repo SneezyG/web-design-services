@@ -202,26 +202,58 @@ section {
 }
 
 div.process {
-  padding: 20px 5px;
+  padding: 5px;
   margin-bottom: 60px;
 }
 
-
-img.blue-img {
+@keyframes animateBlue {
+  0% {
+    transform: translateX(0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(100px) rotate(180deg) scale(0.7);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(200px) rotate(360deg) scale(0);
+    opacity: 0;
+  }
 }
 
-img.red-red {
+@keyframes animateRed {
+  0% {
+    transform: translateX(0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(-100px) rotate(-180deg) scale(0.7);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(-200px) rotate(-360deg) scale(0);
+    opacity: 0;
+  }
+}
+
+img.blue-img {
+  animation: animateBlue 5s cubic-bezier(0.42, 0, 1, 1) infinite;
+  transform-origin: center;
+}
+
+img.red-img {
+  animation: animateRed 5s cubic-bezier(0.42, 0, 1, 1) infinite;
+  transform-origin: center;
 }
 
 div.process > a {
   color: #353535;
-  padding: 2px 7px 0 5px;
+  padding: 2px 7px 0 7px;
   font-size: 20px;
 }
 
 div.process img {
-  width: 140px;
-  position: relative;
+  width: 120px;
 }
 
 footer {
