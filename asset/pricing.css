@@ -124,8 +124,18 @@ p.process {
 }
 
 p.process > a {
-  color: #EEEEEE;
+  color: #353535;
   padding: 2px 7px 0 5px;
+  text-decoration: none;
+}
+
+p.process img {
+  width: 300px;
+}
+
+p.process SVG {
+  position: relative;
+  right: 5px;
 }
 
 a.order {
@@ -387,6 +397,10 @@ footer {
   
   .copyright {
     font-size: 3vw;
+  }
+  
+  p.process img {
+    width: 250px;
   }
 
 }

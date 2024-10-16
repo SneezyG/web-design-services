@@ -9,13 +9,13 @@ let menuLinkVisibility = false;
 menuBtn.addEventListener('click', () => {
   if (menuLinkVisibility) {
     menuLinks.style.display = "none";
-    showMenuBtn.style.display = "block";
+    showMenuBtn.style.display = "inline-block";
     hideMenuBtn.style.display = "none";
   }
   else {
     menuLinks.style.display = "block";
     showMenuBtn.style.display = "none";
-    hideMenuBtn.style.display = "block";
+    hideMenuBtn.style.display = "inline-block";
   }
   menuLinkVisibility = !menuLinkVisibility;
 })
@@ -23,6 +23,6 @@ menuBtn.addEventListener('click', () => {
 document.addEventListener("scroll", () => {
   menuLinks.style.display = "none";
   hideMenuBtn.style.display = "none";
-  showMenuBtn.style.display = "block";
+  showMenuBtn.style.display = "inline-block";
   menuLinkVisibility = false;
 })
