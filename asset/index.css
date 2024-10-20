@@ -491,7 +491,7 @@ a.order {
     margin-top: 10px;
   }
   
-  .action>a {
+  .action > a {
     padding: 10px 12px;
     font-size: 18px;
   }
@@ -538,6 +538,10 @@ a.order {
     font-size: 18px;
   }
   
+  div.process img {
+    width: 100px;
+  }
+  
   .word-col > p {
     margin-top: 20px;
     padding: 20px;
@@ -562,10 +566,6 @@ a.order {
   
   .copyright {
     font-size: 3vw;
-  }
-  
-  div.process img {
-    width: 100px;
   }
   
 }
@@ -621,7 +621,7 @@ a.order {
     height: 240px;
   }
   
-  .action>a {
+  .action > a {
     font-size: 16px;
   }
   
@@ -634,11 +634,11 @@ a.order {
     padding: 15px;
   }
   
-  .why>b {
+  .why > b {
     font-size: 16px;
   }
   
-  .why>span {
+  .why > span {
     font-size: 15px;
   }
   
